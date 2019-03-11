@@ -30,9 +30,6 @@ function findMaxPalindromic() {
 }
 
 
-
-
-
 function checkPalindromic( num) {
     let palindromic = String(num);
     for(let i = 0; i < Math.floor(palindromic.length/2); i++) {
